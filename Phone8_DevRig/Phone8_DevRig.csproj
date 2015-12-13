@@ -157,10 +157,6 @@
       <Project>{689D7F72-200E-40B0-8F0C-4BB029668367}</Project>
       <Name>Phone8Dto</Name>
     </ProjectReference>
-    <ProjectReference Include="..\protobuf-net_Phone8\protobuf-net_Phone8.csproj">
-      <Project>{9FC67A0F-D5D7-4C23-83A2-E910B5BAFF6F}</Project>
-      <Name>protobuf-net_Phone8</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Phone8DtoSerializer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL" />

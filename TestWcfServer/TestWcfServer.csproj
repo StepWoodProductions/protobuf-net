@@ -39,6 +39,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -101,10 +102,6 @@
     <ProjectReference Include="..\protobuf-net\protobuf-net.csproj">
       <Project>{8374E4D7-2A91-48F1-9360-09B09CF27C3F}</Project>
       <Name>protobuf-net</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TestWcfDto\TestWcfDto.csproj">
-      <Project>{1A08F440-53DC-4C42-9CD1-C1507E5036A7}</Project>
-      <Name>TestWcfDto</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

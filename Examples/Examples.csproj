@@ -494,10 +494,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\LateLoaded\bin\Release\LateLoaded.dll">
-      <Link>LateLoaded.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\Tools\PEVerify.exe">
       <Link>PEVerify.exe</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -531,6 +527,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LateLoaded\LateLoaded.csproj">
+      <Project>{e1eb9e1a-8bc0-4da8-983a-6896f523bee3}</Project>
+      <Name>LateLoaded</Name>
+    </ProjectReference>
     <ProjectReference Include="..\protobuf-net\protobuf-net.csproj">
       <Project>{8374E4D7-2A91-48F1-9360-09B09CF27C3F}</Project>
       <Name>protobuf-net</Name>
